@@ -78,3 +78,42 @@ body {
     margin-bottom: 5px;
     margin-left: 20px;
   }
+
+  .education-details {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-details li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.graduation-date {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.gpa{
+  font-style: italic;
+  text-align: right;
+  flex-grow: 1;
+}
+
+.work-details{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-details li{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.work-date{
+  text-align: right;
+  flex-grow: 1;
+}
